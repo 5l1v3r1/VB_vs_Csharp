@@ -23,5 +23,8 @@ jobs:
       - uses: actions/checkout@v2
 
       # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: cmd.exe /c main.bat
+      - name: Version 2
+        run: cmd.exe /c clean & compile_v2 & run
+        
+      - name: Version 4
+        run: cmd.exe /c clean & compile_v4 & run
