@@ -1,6 +1,6 @@
 # VB_vs_Csharp
-Dotnet Csharp vs Visual Basic comparision. Who wins ?
-**Visual Basic vs Csharp (performance comparison):**
+**Visual Basic vs Csharp (performance comparison):** Who wins ?
+
 We written code in both languages, and seems like they have huge performance differences.
 
 **v2:**
