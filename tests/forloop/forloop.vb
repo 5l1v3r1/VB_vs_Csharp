@@ -11,7 +11,7 @@ Public Class forloop
         Console.Write(timer.ElapsedMilliseconds.ToString())
     End Sub
 
-    Private Shared Sub forlooptest()
+    Shared Sub forlooptest()
         Dim heavyNo As Long = 100000000
         For i As Integer = 0 To heavyNo - 1
 		
