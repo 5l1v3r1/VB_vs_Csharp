@@ -2,7 +2,7 @@ Imports System
 Imports System.Diagnostics
 
 Public Class whileloop
-    Shared Sub Main()
+    Public Shared Sub Main()
         Dim timer As Stopwatch = New Stopwatch()
         timer.Start()
         whilelooptest()
