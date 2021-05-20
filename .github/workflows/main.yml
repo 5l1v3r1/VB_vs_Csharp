@@ -24,7 +24,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Version 2
-        run: cmd.exe /c clean.bat & compile_v2.bat & run.bat
+        run: cmd.exe /c clean.bat & cmd.exe /c compile_v2.bat & cmd.exe /c run.bat
         
       - name: Version 4
-        run: cmd.exe /c clean.bat & compile_v4.bat & run.bat
+        run: cmd.exe /c clean.bat & cmd.exe /c compile_v4.bat & cmd.exe /c run.bat
