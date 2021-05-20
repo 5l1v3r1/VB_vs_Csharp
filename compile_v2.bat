@@ -7,9 +7,9 @@ set "cs=%v2%\csc.exe"
 
 
 For /R .\tests\ %%G IN (*.cs) do (
-  %cs% -warn:0 /nologo /out:Bin\%%~nG_cs.exe %%G
+  %cs% -w:0 /nologo /out:Bin\%%~nG_cs.exe %%G
 )
 
 For /R .\tests\ %%G IN (*.vb) do (
-  %vb% -warn:0 /nologo /out:Bin\%%~nG_vb.exe %%G
+  %vb% -w:0 /nologo /out:Bin\%%~nG_vb.exe %%G
 )
