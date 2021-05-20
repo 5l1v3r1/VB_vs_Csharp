@@ -1,7 +1,6 @@
 @echo off
 
 set "v2=C:\Windows\Microsoft.NET\Framework\v2.0.50727"
-set "v4=C:\Windows\Microsoft.NET\Framework\v4.0.30319"
 
 set "vb=%v2%\vbc.exe"
 set "cs=%v2%\csc.exe"
