@@ -5,45 +5,61 @@ We written code in both languages, and seems like they have huge performance dif
 
 **v2:**
 ```
-Csharp foreach loop: 186ms
-VBasic foreach loop: 160ms
-VB wins
+Csharp do while loop: 1201ms
+VBasic do while loop: 364ms
+VBasic wins
 
-Csharp for loop: 74ms
-VBasic for loop: 39ms
-VB wins
+Csharp foreach loop: 148ms
+VBasic foreach loop: 130ms
+VBasic wins
 
-Csharp IOoperations: 267ms
-VBasic IOoperations: 11ms
-VB wins
+Csharp for loop: 75ms
+VBasic for loop: 38ms
+VBasic wins
 
-Csharp variables: 49ms
-VBasic variables: 145ms
-C# wins
+Csharp IOoperations: 276ms
+VBasic IOoperations: 14ms
+VBasic wins
+
+Csharp variables: 51ms
+VBasic variables: 115ms
+Csharp wins
+
+Csharp while loop: 652ms
+VBasic while loop: 384ms
+VBasic wins
 ```
 **v4:**
 ```
-Csharp foreach loop: 142ms
-VBasic foreach loop: 73ms
-VB wins
+Csharp do while loop: 814ms
+VBasic do while loop: 411ms
+VBasic wins
 
-Csharp for loop: 77ms
-VBasic for loop: 41ms
-VB wins
+Csharp foreach loop: 141ms
+VBasic foreach loop: 75ms
+VBasic wins
+
+Csharp for loop: 75ms
+VBasic for loop: 47ms
+VBasic wins
 
 Csharp IOoperations: 10ms
 VBasic IOoperations: 10ms
 tie
 
 Csharp variables: 1ms
-VBasic variables: 26ms
-C# wins
+VBasic variables: 25ms
+Csharp wins
+
+Csharp while loop: 815ms
+VBasic while loop: 419ms
+VBasic wins
 ```
-**VB points: 5**
+**VB points: 9/12**
 
-**C# points: 2**
+**C# points: 2/12**
 
 
-Dotnet Framework v2: https://github.com/blastlaboratory/VB_vs_Csharp/runs/2627817458?check_suite_focus=true#step:5:5
+Dotnet Framework v2: https://github.com/blastlaboratory/VB_vs_Csharp/runs/2631114462?check_suite_focus=true#step:5:4
 
-Dotnet Framework v4: https://github.com/blastlaboratory/VB_vs_Csharp/runs/2627817458?check_suite_focus=true#step:8:5
+Dotnet Framework v4: https://github.com/blastlaboratory/VB_vs_Csharp/runs/2631114462?check_suite_focus=true#step:8:4
