@@ -8,25 +8,17 @@ Public Class forloopeach
         timer.Start()
         forloopeachtest()
         timer.Stop()
-        Console.WriteLine(timer.ElapsedMilliseconds.ToString())
+        Console.Write(timer.ElapsedMilliseconds.ToString())
     End Sub
 
     Private Shared Sub forloopeachtest()
         Dim heavycars As String() = New String() {"Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda","Volvo", "BMW", "Ford", "Mazda", "Mazda","Volvo"} 
-        For each car As String In heavycars
-		
-        Next
-        For each car As String In heavycars
-		
-        Next
-        For each car As String In heavycars
-		
-        Next
-        For each car As String In heavycars
-		
-        Next
-        For each car As String In heavycars
-		
+        For each car1 As String In heavycars
+            For each car2 As String In heavycars
+                For each car3 As String In heavycars
+		        
+                Next
+            Next
         Next
     End Sub
 End Class

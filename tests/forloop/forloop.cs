@@ -10,7 +10,7 @@ public class forloop
         timer.Start();
         forlooptest();
 		timer.Stop();
-		Console.WriteLine(timer.ElapsedMilliseconds.ToString());
+		Console.Write(timer.ElapsedMilliseconds.ToString());
 	}
 	
 	static void forlooptest()
